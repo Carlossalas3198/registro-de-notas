@@ -1,0 +1,99 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main () {
+cout << "Has entrado a nuestro sistema, Por favor introduce tu nombre y apellido" << endl;
+string nombre;
+cin >> nombre;
+string apellido;
+cin >> apellido;
+cout << "Bien Hecho "<< nombre << endl;
+	cout << "Introduce tu primera nota (10%) " << endl;
+	int not1;
+	cin >> not1;
+	not1=not1*10/100;
+	cout << " El 10% de tu primera nota fue " <<  not1 << " puntos. "<< endl;
+	
+	cout << "Introduce tu Segunda Nota (20%) " << endl;
+	int not2;
+	cin >> not2;
+	not2=not2*20/100;
+	cout << " El 20% de tu segunda nota fue " <<  not2 << " puntos. "<< endl;
+	cout << " Hasta ahora tienes " <<  not1+not2 << " puntos Acumulados "<< endl;
+	cout << "Introduce tu tercera nota 15% " << endl;
+	int not3;
+	cin >> not3;
+	not3=not3*15/100;
+	cout << " El 15% de tu tercera nota fue " <<  not3 << " puntos  "<< endl;
+	cout << "Introduce tu Cuarta Nota 15% " << endl;
+	int not4;
+	cin >> not4;
+	not4=not4*15/100;
+	cout << " El 15% de tu cuarta nota fue " <<  not4 << " puntos. "<< endl;
+
+	cout << " Hasta ahora tienes " <<  not1+not2+not3+not4 << " puntos Acumulados "<< endl;
+		cout << "Introduce tu quinta nota 20% " << endl;
+	int not5;
+	cin >> not5;
+	not5=not5*20/100;
+	cout << " El 20% de tu quinta nota fue " <<  not5 << " puntos. "<< endl;
+	cout << "Introduce tu Sexta y ultima nota 20% " << endl;
+	int not6;
+	cin >> not6;
+	not6=not6*20/100;
+	cout << " El 20% de tu sexta nota fue " <<  not6 << " puntos. "<< endl;
+	cout << " Tu nota definitiva fue de " << not1+not2+not3+not4+not5+not6  << " puntos. "<< endl;
+	
+cout << " Si desea agregar otro alumno presione 1 si no presione 0 " << endl;
+int x;
+cin >> x;
+if (x==1) {
+	cout << "Has registrado un nuevo alumno, Por favor introduce tu nombre y apellido" << endl;
+string nombre;
+cin >> nombre;
+string apellido;
+cin >> apellido;
+cout << "Bien Hecho "<< nombre << endl;
+	cout << "Introduce tu primera nota (10%) " << endl;
+	int not1;
+	cin >> not1;
+	not1=not1*10/100;
+	cout << " El 10% de tu primera nota fue " <<  not1 << " puntos. "<< endl;
+	
+	cout << "Introduce tu Segunda Nota (20%) " << endl;
+	int not2;
+	cin >> not2;
+	not2=not2*20/100;
+	cout << " El 20% de tu segunda nota fue " <<  not2 << " puntos. "<< endl;
+	cout << " Hasta ahora tienes " <<  not1+not2 << " puntos Acumulados "<< endl;
+	cout << "Introduce tu tercera nota 15% " << endl;
+	int not3;
+	cin >> not3;
+	not3=not3*15/100;
+	cout << " El 15% de tu tercera nota fue " <<  not3 << " puntos  "<< endl;
+	cout << "Introduce tu Cuarta Nota 15% " << endl;
+	int not4;
+	cin >> not4;
+	not4=not4*15/100;
+	cout << " El 15% de tu cuarta nota fue " <<  not4 << " puntos. "<< endl;
+
+	cout << " Hasta ahora tienes " <<  not1+not2+not3+not4 << " puntos Acumulados "<< endl;
+		cout << "Introduce tu quinta nota 20% " << endl;
+	int not5;
+	cin >> not5;
+	not5=not5*20/100;
+	cout << " El 20% de tu quinta nota fue " <<  not5 << " puntos. "<< endl;
+	cout << "Introduce tu Sexta y ultima nota 20% " << endl;
+	int not6;
+	cin >> not6;
+	not6=not6*20/100;
+	cout << " El 20% de tu sexta nota fue " <<  not6 << " puntos. "<< endl;
+	cout << " Tu nota definitiva fue de " << not1+not2+not3+not4+not5+not6  << " puntos. "<< endl;
+	cout <<"has finalizado correctamente nuestro registro de notas" <<endl;
+
+}
+else { 
+cout <<"has finalizado correctamente nuestro registro de notas" <<endl;
+}
+}
+
